@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import happy_people from "../assets/happy-people.png";
 import ReferralModal from "./ReferralModal";
 
 const HeroSection = () => {
@@ -69,11 +70,7 @@ const HeroSection = () => {
 
           <div className="md:w-1/2 flex justify-center">
             {/* People Image */}
-            <img
-              src="../assets/Happy_people.png"
-              alt="Happy_people"
-              className="object-fit"
-            />
+            <img src={happy_people} alt="Happy_people" className="object-fit" />
           </div>
         </div>
       </div>
