@@ -70,7 +70,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 flex justify-center">
               {/* People Image */}
                 <img
-                  src="/assets/happy-people.png"
+                  src="./assets/happy-people.png"
                   alt="Happy_people"
                   className="object-fit"
                 />
