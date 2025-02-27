@@ -66,11 +66,11 @@ const HeroSection = () => {
               Refer Now
             </button>
           </div>
-          
+
           <div className="md:w-1/2 flex justify-center">
               {/* People Image */}
                 <img
-                  src="src/assets/happy-people.png"
+                  src="./src/assets/happy-people.png"
                   alt="Happy_people"
                   className="object-fit"
                 />
